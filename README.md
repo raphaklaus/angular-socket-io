@@ -184,6 +184,13 @@ instead exposes a `socketFactory` service which returns socket instances.
 Thus, getting the old API is as simple as making your own `socket` service
 with `socketFactory`. The examples below demonstrate how to do this.
 
+### Requirement
+
+This project requires socket.io-client also known as io object. Please make sude you have it inserted in your index.html or
+entry file if using Webpack:
+
+
+
 ### Simple Example
 
 In most cases, adding the following to your app should suffice:
